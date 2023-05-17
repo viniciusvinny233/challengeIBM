@@ -13,40 +13,32 @@ body {
 
 header {
   background-color: rgba(44, 62, 80);
-  width: 100%;
-  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+  padding: 0rem 8rem;
+  flex-wrap: wrap;
 }
 
-.logo {
-  width: 150px;
-}
-
-
-.logoDesenho {
-  padding-left: 2rem;
-}
-
-header table {
-  width: 100%;
-  padding-right: 6rem;
-}
-
-nav td {
-  white-space: nowrap;
-  font-size: 1.4rem;
-}
-
-nav a {
+header a {
   color: white;
   text-decoration: none;
-  padding: 0.5rem;
   border-radius: 10px;
   font-weight: bold;
+  font-size: 1.4rem;
+  padding: 0.5rem;
 }
 
-nav a:hover {
+header a:hover {
   background-color: rgb(198, 198, 198);
   border-radius: 10prgb(158, 158, 158)
+}
+
+.logoDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 main {
@@ -74,6 +66,18 @@ p {
 
 #quemSomos {
   font-size: 1.3rem;
+}
+
+.main-impactos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.cardImpactos {
+  width: 40%;
+  margin: 1rem;
 }
 
 ul {
