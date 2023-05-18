@@ -117,6 +117,17 @@ label {
   margin-bottom: 0.5rem;
 }
 
+.parceiros {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardParceiros {
+  width: 48%;
+}
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -157,7 +168,11 @@ input[type="submit"]:hover {
 }
 
 .equipe {
-  width: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .equipe h3 {
