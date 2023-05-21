@@ -178,3 +178,7 @@ input[type="submit"]:hover {
 .equipe h3 {
   text-align: center;
 }
+
+#mensagem {
+  resize: none;
+}
